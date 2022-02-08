@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"hello"
+
+	"github.com/taaag51/golang-handson/hello"
 )
 
 func main() {

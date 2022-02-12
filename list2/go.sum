@@ -1,2 +1,4 @@
 github.com/taaag51/golang-handson/hello v0.0.0-20220208151337-f2e2894bc074 h1:8AyC5ZlN3oZgZ0kY4rpmHu7KG7VxpaVVdO7kLO3I1SU=
 github.com/taaag51/golang-handson/hello v0.0.0-20220208151337-f2e2894bc074/go.mod h1:y2ffBZK4MLQ4iGjW2xYjtd6bArUwPt8nAVMT/1P5s3E=
+github.com/taaag51/golang-handson/hello v0.0.0-20220212153649-54ca26431859 h1:z30v+/bOwhK4EHpU8VouQ0ln46hlu4GvUeBHmA9V08o=
+github.com/taaag51/golang-handson/hello v0.0.0-20220212153649-54ca26431859/go.mod h1:y2ffBZK4MLQ4iGjW2xYjtd6bArUwPt8nAVMT/1P5s3E=

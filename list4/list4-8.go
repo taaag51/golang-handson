@@ -9,20 +9,19 @@ import (
 )
 
 func main() {
-	c := 0
 	a := app.New()
 	w := a.NewWindow("Hello")
 	l := widget.NewLabel("Hello Fyne!")
-
+	s := widget.NewSlider(0.0, 100.)
+	b := widget.NewButton(
+		"Check",
+		func() {
+			l.SetText("value: " + strconv.Itoa(int(s.Value)))
+		})
 	w.SetContent(
 		container.NewVBox(
-			l,
-			widget.NewButton("Click me!", func() {
-				c++
-				l.SetText("count: " + strconv.Itoa(c))
-			}),
+			l, s, b,
 		),
 	)
-
 	w.ShowAndRun()
 }
